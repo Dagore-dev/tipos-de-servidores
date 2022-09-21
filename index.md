@@ -1,0 +1,3 @@
+# Tipos de servidores
+
+El paradigma cliente-servidor es en estos días la piedra angular del funcionamiento de internet. El ejemplo de aplicación de este paradigma que con más frecuencia y naturalidad se experimenta es el acceso a sitios web. En este ejemplo nuestros equipos pasan a ser clientes de otro servidor o servidores, responsables de servir los ficheros estáticos que la web que visitamos. En este proceso intervienen distintos protocolos (`TCP/IP`, `DNS`, `HTTP`) y equipos. Existen múltiples ejemplos como este en nuestro día a día y en entornos profesionales. En esta presentación se detallarán distintos tipos de servidores y sus características principales.
