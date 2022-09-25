@@ -35,8 +35,15 @@ Un servidor web en su mínima expresión es un servidor `HTTP` (`Hypertext Trans
 
 Los sitios web siguen principalmente dos estrategias para alojarse en estos servidores: pueden ser sitios web estáticos o dinámicos. Un sitio web estático simplemente almacena en el servidor web los ficheros estáticos que pretende servir al cliente, por contra, los sitios web dinámicos actualizan la totalidad o una parte de los estáticos antes de enviarlos en respuesta a una petición `HTTP`. Las web dinámicas presentan una mayor complejidad y por eso habitualmente necesitan servidores de aplicación y de base de datos (serán discutidos más adelante) [[3]](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server).
 
+### Servidor de base de datos
+
+Los servidores de base de datos alojan y ejecutan un `DBMS` (`DataBase Management System`) junto con la información que almacena la base de datos. Estos servidores exponen una interfaz a los clientes para que interaccionen con la base de datos. La interfaz puede definir diversas medidas o estrategias de seguridad para que el acceso y modificación de los datos lo realicen solo clientes debidamente autenticados [[4]](https://phoenixnap.com/kb/what-is-a-database-server).
+
+Existen múltiples servidores de base de datos, tanto relacionales (`SQL`) como no relacionales (`noSQL`) cada uno con sus características únicas, decidir adecuadamente la que se ajusta a las necesidades de nuestra aplicación u organización es una tarea de elevada complejidad que no debe tomarse a la ligera.
+
 ## Bibliografía
 
 1. [What is a DHCP Server? (Infoblox)](https://www.infoblox.com/glossary/dhcp-server/)
 2. [What is a DNS server? (Cloudflare)](https://www.cloudflare.com/learning/dns/what-is-a-dns-server/)
 3. [What is a web server? (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
+4. [What Is a Database Server & What Is It Used For? (phoenixNAP)](https://phoenixnap.com/kb/what-is-a-database-server)
