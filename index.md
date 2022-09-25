@@ -54,6 +54,10 @@ Un servidor de aplicación contiene lógica de negocio y trabaja conjuntamente c
 
 Estos servidores no necesariamente tienen que estar acoplados a un servicio web concreto, pueden exponerse para funcionar como `APIs` públicas (`Application Program Interface`) que reciban y respondan peticiones.
 
+### Servidor de correo electrónico
+
+Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) para enviar y recibir correos electrónicos a través de la red que los destinatarios obtienen mediante el `Post Office Protocol` (`POP`). Estos servidores emplean un sistema de dominios para identificar a dónde deben ser enviados los mensajes, dichos dominios son definidos tras la `@` en el nombre del correo electrónico. En consecuencia, para tener un dominio propio y personalizado se necesita un servidor de correo electrónico.
+
 ## Bibliografía
 
 1. [What is a DHCP Server? (Infoblox, 25/09/2022)](https://www.infoblox.com/glossary/dhcp-server/)
