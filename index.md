@@ -10,7 +10,6 @@ El paradigma cliente-servidor es en estos días la piedra angular del funcionami
 - Servidor de base de datos
 - Servidor web `proxy`
 - Servidor `FTP`
-- Servidor de archivos
 - Servidor de aplicación
 - Servidor de correo electrónico
 - Servidor de impresión
@@ -48,6 +47,12 @@ Un servidor `proxy` actúa como intermediario entre un recurso y un cliente que 
 ### Servidor `FTP`
 
 Los servidores `FTP` utilizan el `File Transfer Protocol` para que los clientes puedan descargar y subir ficheros a un almacenamiento compartido. Es posiblemente una de las formas más sencillas y económicas a disposición de las organizaciones que necesitan compartir información entre sus miembros dentro de una red local o internet. Para acceder a los ficheros guardados en este tipo de servidores se puede emplear un navegador web, aunque existen también clientes especializados como `Filezilla` que presentan ciertas ventajas, especialmente cuando se trabaja con ficheros de gran tamaño [[6]](https://www.techopedia.com/definition/26108/ftp-server).
+
+### Servidor de aplicación
+
+Un servidor de aplicación contiene lógica de negocio y trabaja conjuntamente con servidores web y servidores de base de datos. Las aplicaciones web dinámicas emplean este tipo de servidores porque proveen `Server Side Rendering` (`SSR`), es decir, ante una petición concreta pueden generar los ficheros estáticos necesarios procesando la información que viene con la petición y/o recuperando información de un servidor de base de datos.
+
+Estos servidores no necesariamente tienen que estar acoplados a un servicio web concreto, pueden exponerse para funcionar como `APIs` públicas (`Application Program Interface`) que reciban y respondan peticiones.
 
 ## Bibliografía
 
