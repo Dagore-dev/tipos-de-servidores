@@ -58,6 +58,10 @@ Estos servidores no necesariamente tienen que estar acoplados a un servicio web 
 
 Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) para enviar y recibir correos electrónicos a través de la red que los destinatarios obtienen mediante el `Post Office Protocol` (`POP`). Estos servidores emplean un sistema de dominios para identificar a dónde deben ser enviados los mensajes, dichos dominios son definidos tras la `@` en el nombre del correo electrónico. En consecuencia, para tener un dominio propio y personalizado se necesita un servidor de correo electrónico [[8]](https://www.samlogic.net/articles/mail-server.htm).
 
+### Servidor de impresión
+
+Un servidor de impresión conecta impresoras a clientes a través de una red. Acepta trabajos de impresión de las clientes y los envía a las impresoras apropiadas, poniendo los trabajos en cola localmente para adaptarse al hecho de que el trabajo puede llegar más rápido de lo que la impresora realmente puede manejar. Las funciones auxiliares incluyen la capacidad de inspeccionar la cola de trabajos a procesar y de reordenar o eliminar trabajos de impresión en espera. Los servidores de impresión se pueden utilizar para hacer cumplir las políticas de administración, como cuotas de impresión en color, autenticación de usuario/departamento o documentos impresos con marcas de agua [[9]](https://en.wikipedia.org/wiki/Print_server).
+
 ## Bibliografía
 
 1. [What is a DHCP Server? (Infoblox, 25/09/2022)](https://www.infoblox.com/glossary/dhcp-server/)
@@ -68,3 +72,4 @@ Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) par
 6. [FTP Server (Techopedia, 25/09/2022)](https://www.techopedia.com/definition/26108/ftp-server)
 7. [What Is an Application Server vs. a Web Server? (NGINX, 25/09/2022)](https://www.nginx.com/resources/glossary/application-server-vs-web-server/)
 8. [What is a Mail Server and How Does it Work? (Samlogic, 25/09/2022)](https://www.samlogic.net/articles/mail-server.htm)
+9. [Print Server (Wikipedia, 25/09/2022)](https://en.wikipedia.org/wiki/Print_server)
