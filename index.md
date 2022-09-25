@@ -4,15 +4,25 @@ El paradigma cliente-servidor es en estos días la piedra angular del funcionami
 
 ## Índice
 
-1. Servidor `DHCP`
-2. Servidor `DNS`
-3. Servidor web
-4. Servidor de base de datos
-5. Servidor web `proxy`
-6. Servidor `FTP`
-7. Servidor de archivos
-8. Servidor de aplicación
-9. Servidor de correo electrónico
-10. Servidor de impresión
-11. Servidor de comunicación en tiempo real
-12. Servidor de servidores virtuales
+- Servidor `DHCP`
+- Servidor `DNS`
+- Servidor web
+- Servidor de base de datos
+- Servidor web `proxy`
+- Servidor `FTP`
+- Servidor de archivos
+- Servidor de aplicación
+- Servidor de correo electrónico
+- Servidor de impresión
+- Servidor de comunicación en tiempo real
+- Servidor de servidores virtuales
+
+### Servidor `DHCP`
+
+Un servidor DHCP es un servidor que proporciona y asigna automáticamente direcciones IP, puertas de enlace predeterminadas y otros parámetros de red a los dispositivos de los clientes. Se basa en el protocolo estándar conocido como `Dynamic Host Configuration Protocol` o `DHCP` para responder a las consultas de difusión de los clientes [[1]](https://www.infoblox.com/glossary/dhcp-server/).
+
+Este tipo de servidores en entornos no profesionales no son equipos dedicados y los mencionados parámetros de red son determinados por el router o switch. En entornos profesionales un servidor `DHCP` dedicado ofrece a los administradores de sistemas capacidad para automatizar la asignación los parámetros de red definiendo distintas estrategias. Es así que un servidor dedicado permite ajustar correctamente este servicio a la necesidades concretas de forma efectiva.
+
+## Bibliografía
+
+1. [What is a DHCP Server? (Infoblox)](https://www.infoblox.com/glossary/dhcp-server/)
