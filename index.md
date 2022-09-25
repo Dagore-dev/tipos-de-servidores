@@ -45,6 +45,10 @@ Existen múltiples servidores de base de datos, tanto relacionales (`SQL`) como 
 
 Un servidor `proxy` actúa como intermediario entre un recurso y un cliente que quiere acceder a este. Así se simplifica la complejidad de la solicitud y otorga beneficios adicionales, como balanceo de carga, privacidad o seguridad. Por lo tanto, un servidor proxy funciona en nombre del cliente cuando solicita un servicio, enmascarando potencialmente el verdadero origen de la solicitud al servidor de recursos [[5]](https://en.wikipedia.org/wiki/Proxy_server).
 
+### Servidor `FTP`
+
+Los servidores `FTP` utilizan el `File Transfer Protocol` para que los clientes puedan descargar y subir ficheros a un almacenamiento compartido. Es posiblemente una de las formas más sencillas y económicas a disposición de las organizaciones que necesitan compartir información entre sus miembros dentro de una red local o internet. Para acceder a los ficheros guardados en este tipo de servidores se puede emplear un navegador web, aunque existen también clientes especializados como `Filezilla` que presentan ciertas ventajas, especialmente cuando se trabaja con ficheros de gran tamaño [[6]](https://www.techopedia.com/definition/26108/ftp-server).
+
 ## Bibliografía
 
 1. [What is a DHCP Server? (Infoblox, 25/09/2022)](https://www.infoblox.com/glossary/dhcp-server/)
@@ -52,3 +56,4 @@ Un servidor `proxy` actúa como intermediario entre un recurso y un cliente que 
 3. [What is a web server? (MDN, 25/09/2022)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 4. [What Is a Database Server & What Is It Used For? (phoenixNAP, 25/09/2022)](https://phoenixnap.com/kb/what-is-a-database-server)
 5. [Proxy server (Wikipedia, 25/09/2022)](https://en.wikipedia.org/wiki/Proxy_server)
+6. [FTP Server (Techopedia, 25/09/2022)](https://www.techopedia.com/definition/26108/ftp-server)
