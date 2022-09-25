@@ -13,8 +13,7 @@ El paradigma cliente-servidor es en estos días la piedra angular del funcionami
 - Servidor de aplicación
 - Servidor de correo electrónico
 - Servidor de impresión
-- Servidor de comunicación en tiempo real
-- Servidor de servidores virtuales
+- Servidor virtual
 
 ### Servidor `DHCP`
 
@@ -62,6 +61,10 @@ Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) par
 
 Un servidor de impresión conecta impresoras a clientes a través de una red. Acepta trabajos de impresión de las clientes y los envía a las impresoras apropiadas, poniendo los trabajos en cola localmente para adaptarse al hecho de que el trabajo puede llegar más rápido de lo que la impresora realmente puede manejar. Las funciones auxiliares incluyen la capacidad de inspeccionar la cola de trabajos a procesar y de reordenar o eliminar trabajos de impresión en espera. Los servidores de impresión se pueden utilizar para hacer cumplir las políticas de administración, como cuotas de impresión en color, autenticación de usuario/departamento o documentos impresos con marcas de agua [[9]](https://en.wikipedia.org/wiki/Print_server).
 
+### Servidor virtual
+
+Un servidor virtual reproduce las funciones de un servidor físico dedicado. Existe de forma transparente para los usuarios como un espacio con particiones dentro de un servidor físico. La virtualización de servidores facilita la reasignación de recursos y se adapta a las cargas de trabajo dinámicas [[10]](https://cloud.google.com/learn/what-is-a-virtual-server). 
+
 ## Bibliografía
 
 1. [What is a DHCP Server? (Infoblox, 25/09/2022)](https://www.infoblox.com/glossary/dhcp-server/)
@@ -73,3 +76,4 @@ Un servidor de impresión conecta impresoras a clientes a través de una red. Ac
 7. [What Is an Application Server vs. a Web Server? (NGINX, 25/09/2022)](https://www.nginx.com/resources/glossary/application-server-vs-web-server/)
 8. [What is a Mail Server and How Does it Work? (Samlogic, 25/09/2022)](https://www.samlogic.net/articles/mail-server.htm)
 9. [Print Server (Wikipedia, 25/09/2022)](https://en.wikipedia.org/wiki/Print_server)
+10. [¿Qué es un servidor virtual? (Google Cloud, 25/09/2022)](https://cloud.google.com/learn/what-is-a-virtual-server)
