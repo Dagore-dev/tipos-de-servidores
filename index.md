@@ -50,13 +50,13 @@ Los servidores `FTP` utilizan el `File Transfer Protocol` para que los clientes 
 
 ### Servidor de aplicación
 
-Un servidor de aplicación contiene lógica de negocio y trabaja conjuntamente con servidores web y servidores de base de datos. Las aplicaciones web dinámicas emplean este tipo de servidores porque proveen `Server Side Rendering` (`SSR`), es decir, ante una petición concreta pueden generar los ficheros estáticos necesarios procesando la información que viene con la petición y/o recuperando información de un servidor de base de datos.
+Un servidor de aplicación contiene lógica de negocio y trabaja conjuntamente con servidores web y servidores de base de datos. Las aplicaciones web dinámicas emplean este tipo de servidores porque proveen `Server Side Rendering` (`SSR`), es decir, ante una petición concreta pueden generar los ficheros estáticos necesarios procesando la información que viene con la petición y/o recuperando información de un servidor de base de datos [[7]](https://www.nginx.com/resources/glossary/application-server-vs-web-server/).
 
 Estos servidores no necesariamente tienen que estar acoplados a un servicio web concreto, pueden exponerse para funcionar como `APIs` públicas (`Application Program Interface`) que reciban y respondan peticiones.
 
 ### Servidor de correo electrónico
 
-Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) para enviar y recibir correos electrónicos a través de la red que los destinatarios obtienen mediante el `Post Office Protocol` (`POP`). Estos servidores emplean un sistema de dominios para identificar a dónde deben ser enviados los mensajes, dichos dominios son definidos tras la `@` en el nombre del correo electrónico. En consecuencia, para tener un dominio propio y personalizado se necesita un servidor de correo electrónico.
+Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) para enviar y recibir correos electrónicos a través de la red que los destinatarios obtienen mediante el `Post Office Protocol` (`POP`). Estos servidores emplean un sistema de dominios para identificar a dónde deben ser enviados los mensajes, dichos dominios son definidos tras la `@` en el nombre del correo electrónico. En consecuencia, para tener un dominio propio y personalizado se necesita un servidor de correo electrónico [[8]](https://www.samlogic.net/articles/mail-server.htm).
 
 ## Bibliografía
 
@@ -66,3 +66,5 @@ Los servidores de correo emplean el `Simple mail transfer protocol` (`SMTP`) par
 4. [What Is a Database Server & What Is It Used For? (phoenixNAP, 25/09/2022)](https://phoenixnap.com/kb/what-is-a-database-server)
 5. [Proxy server (Wikipedia, 25/09/2022)](https://en.wikipedia.org/wiki/Proxy_server)
 6. [FTP Server (Techopedia, 25/09/2022)](https://www.techopedia.com/definition/26108/ftp-server)
+7. [What Is an Application Server vs. a Web Server? (NGINX, 25/09/2022)](https://www.nginx.com/resources/glossary/application-server-vs-web-server/)
+8. [What is a Mail Server and How Does it Work? (Samlogic, 25/09/2022)](https://www.samlogic.net/articles/mail-server.htm)
