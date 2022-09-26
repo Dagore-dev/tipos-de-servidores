@@ -1,0 +1,24 @@
+{
+  "name": "tipos-de-servidores",
+  "version": "1.0.0",
+  "description": "Trabajo sobre tipos de servidores para la asignatura de Despliegue de aplicaciones web (DAW2).",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx marp --output=dist --input-dir=src --allow-local-files",
+    "build-pdf": "npx marp --pdf --output=dist --input-dir=src --allow-local-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagore-dev/tipos-de-servidores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dagore-dev/tipos-de-servidores/issues"
+  },
+  "homepage": "https://github.com/Dagore-dev/tipos-de-servidores#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.2.0"
+  }
+}
